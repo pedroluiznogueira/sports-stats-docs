@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T04:11:50.236Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.3.6" etag="knzoj9D1jYmvXMA0dXnN" type="github"><diagram id="InfMg-ab6bTubLXAsKLl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-25T06:06:03.720Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hc3kpUj-gNN493UYqdfx" version="20.3.6" type="github">
+  <diagram id="InfMg-ab6bTubLXAsKLl" name="Page-1">
+    <mxGraphModel dx="982" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-4" value="Sports Stats" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="80" width="100" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;sketch=1;" vertex="1" parent="ltvdLoTYFbtlC6_NYgfp-4">
+          <mxGeometry x="45" y="60" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-18" value="calculate stats&amp;nbsp;&lt;br&gt;based on &lt;br&gt;fetched data" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="ltvdLoTYFbtlC6_NYgfp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="150" />
+            </Array>
+            <mxPoint x="60" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-5" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="20" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;sketch=1;" vertex="1" parent="ltvdLoTYFbtlC6_NYgfp-5">
+          <mxGeometry x="5" y="60" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-10" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.29;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ltvdLoTYFbtlC6_NYgfp-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="92" y="160" as="sourcePoint" />
+            <mxPoint x="232" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-11" value="get previous matches stats for a given champioship" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-12" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="160.96" as="sourcePoint" />
+            <mxPoint x="597" y="159.99999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-13" value="Stats Provider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="100" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;sketch=1;" vertex="1" parent="ltvdLoTYFbtlC6_NYgfp-13">
+          <mxGeometry x="45" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-15" value="get matches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-16" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="597" y="200.96000000000004" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-19" value="matches response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-20" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="337" y="250.96000000000004" as="sourcePoint" />
+            <mxPoint x="90" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltvdLoTYFbtlC6_NYgfp-21" value="get corresponding stats" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
